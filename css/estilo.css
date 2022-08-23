@@ -35,7 +35,7 @@ background-color: blue;
 }
 
 .header{
-  border: solid black 3px;
+
   grid-area:header;
   background-color: blueviolet;
   background-repeat: no-repeat;
@@ -71,13 +71,11 @@ background-color: blue;
   opacity: 5.5;
 }
 
-.footer{
-  border: solid black 3px; 
-  grid-area:footer;
-  background-color: darkolivegreen;
-  background-repeat: no-repeat;
-  background-size: 3vw 8vh;
-  opacity: 5.5;
+.gridFooter {
+  background-color: black;
+  text-align: center;
+  color: white;
+  grid-area: footer;
 }
 
 /********************* MULTIMEDIA ***********************/
@@ -95,9 +93,6 @@ background-color: blue;
   background-color: blue;
 }
 
-.menu {
-  color: black;
-}
 .gridPadreMul iframe {
   width: 100%;
 }
@@ -137,9 +132,13 @@ background-color: blue;
   background-color: purple;
 }
 
-.footer {
+.gridFooter {
+  background-color: black;
   text-align: center;
+  color: white;
+  grid-area: footer;
 }
+
 
 /*********************ANIMACIONES*********************/
 
