@@ -4,13 +4,11 @@
 /********************* INDEX ***********************/
 
 .navbar-nav {
-  /* display: flex; */
   justify-content: space-evenly;
   align-content: center;
   font-size: 30px;
   padding-bottom: 25px;
   text-decoration: none;
- 
 }
 
 .nav-link {
@@ -18,53 +16,39 @@
   text-shadow: 1px 1px black;
 }
 
-.padreGrid{
-  display: grid;
-  grid-template-areas: 
-"header header"
-"dos dos "
-"uno tres"
-"uno tres"
-"footer footer";
-gap: 10px;
-background-color: blue;
+.padreGrid {
+  background-color: blue;
 }
 
 .padreGrid img {
   width: 100%;
 }
 
-.header{
-
-  grid-area:header;
+.header {
   background-color: blueviolet;
   background-repeat: no-repeat;
   background-size: 1vw 3vh;
   opacity: 10.5;
 }
 
-.section1{
+.section1 {
   border: solid black 3px;
-  grid-area: uno;
   background-color: brown;
   background-repeat: no-repeat;
   background-size: 3vw 8vh;
   opacity: 5.5;
-
 }
 
-.section2{
+.section2 {
   border: solid black 3px;
-  grid-area: dos; 
   background-color: cornflowerblue;
   background-repeat: no-repeat;
   background-size: 3vw 8vh;
   opacity: 5.5;
 }
 
-.section3{
-  border: solid black 3px; 
-  grid-area: tres;
+.section3 {
+  border: solid black 3px;
   background-color: rgb(115, 189, 115);
   background-repeat: no-repeat;
   background-size: 3vw 8vh;
@@ -75,22 +59,12 @@ background-color: blue;
   background-color: black;
   text-align: center;
   color: white;
-  grid-area: footer;
 }
 
 /********************* MULTIMEDIA ***********************/
 
 .gridPadreMul {
-  display: grid;
-  grid-template-areas: 
-  "header header"
-  "subtitulo subtitulo"
-  "song1 song2"
-  "song3 song4"
-  "song5 song5"
-  "footer footer";
-  gap: 10px;
-  background-color: blue;
+ background-color: blue;
 }
 
 .gridPadreMul iframe {
@@ -139,18 +113,17 @@ background-color: blue;
   grid-area: footer;
 }
 
-
 /*********************ANIMACIONES*********************/
 
-.menu:hover{
+.menu:hover {
   background-color: azure;
-color: black;
-font-size: 40px;
-border: grey 5px solid;
-border-radius: 30 px;
-box-shadow: 5px  grey;
-background: linear-gradient(  blue, skyblue,white);
-transition: 1s;
+  color: black;
+  font-size: 40px;
+  border: grey 5px solid;
+  border-radius: 30 px;
+  box-shadow: 5px grey;
+  background: linear-gradient(blue, skyblue, white);
+  transition: 1s;
 }
 
 .padreGrid img:hover {
@@ -159,7 +132,6 @@ transition: 1s;
   border-radius: 10px;
   box-shadow: 4px 4px white;
   transition: 1s;
-
 }
 
 .gridPadreMul div {
@@ -170,14 +142,12 @@ transition: 1s;
 @keyframes fade-in {
   from {
     opacity: 0;
-
   }
 
   to {
     opacity: 1;
   }
 }
-
 
 .carP {
   height: 1000px;
